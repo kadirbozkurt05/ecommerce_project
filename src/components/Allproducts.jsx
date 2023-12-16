@@ -1,6 +1,6 @@
 import ProductBox from "./ProductBox.jsx";
 
-export default function Allproducts({ list }) {
+export default function AllProducts({ list }) {
   return (
     <div className="product-list-container">
       <ul className="product-list">

@@ -1,0 +1,59 @@
+*{
+  box-sizing: border-box;
+}
+.category-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .category-item {
+    margin-right: 10px;
+    padding: 5px;
+    border: 2px solid black;
+    background: #dfdfdf;
+    font-size: large;
+  }
+
+  .selected {
+    margin-right: 10px;
+    padding: 5px;
+    border: 2px solid black;
+    background: #8b8a8a;
+    font-size: large;
+  }
+
+  .unselected:hover{
+    background-color: #858585;
+  }
+
+
+/* styles.css */
+.product-list-container{
+  margin-top: 20px;
+}
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adjust the minimum and maximum width as needed */
+  grid-gap: 10px; /* Adjust the gap between items as needed */
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+/* Optional: Add styles for ProductBox components */
+.product-box {
+  border: 1px solid #ccc; /* Example border style */
+  padding: 10px; /* Example padding */
+  text-align: center; /* Center text */
+  height: 100%;
+}
+
+.product-box img {
+  max-width: 200px; /* Make sure images don't exceed the container width */
+}
+

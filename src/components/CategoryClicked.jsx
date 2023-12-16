@@ -1,6 +1,6 @@
 import { useState } from "react";
 import CategoryList from "./CategoryList.jsx";
-import AllProducts from "./AllProducts.jsx";
+import Products from "./Products.jsx";
 import allProducts from "../fake-data/all-products.js";
 import allCategories from "../fake-data/all-categories.js";
 
@@ -33,7 +33,7 @@ export default function CategoryClicked() {
         list={allCategories}
         onCategoryClick={handleCategoryClick}
       />
-      <AllProducts list={filteredProducts} />
+      <Products list={filteredProducts} />
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import CategoryList from "./CategoryList.jsx";
+import AllProducts from "./AllProducts.jsx";
 import allProducts from "../fake-data/all-products.js";
 import allCategories from "../fake-data/all-categories.js";
 
